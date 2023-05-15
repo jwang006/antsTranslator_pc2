@@ -206,10 +206,7 @@ img{
         flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
     }
 }
-
-
-.ants_trail_sketch {
+#ants_trail_sketch {
     width: 50%;
     height: 50%;
-    /* align-items: center; */
 }

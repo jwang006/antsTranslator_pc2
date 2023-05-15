@@ -27,13 +27,15 @@
 
         <main class="documentation-page">
             <section>
-                <div class="responsive-video centered-content">
-                   <iframe src="https://player.vimeo.com/video/812765271?h=62b6ff746f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ants Translator"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                   <iframe src="https://player.vimeo.com/video/812765271?h=62b6ff746f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ants Translator"></iframe>
                 </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+    
             </section>
             <section>
                 <h3>Introduction</h3>
-                <p>The Ant Translator is an installation for web interaction, a special translator that converts text into images. 
+                <p align="justify">The Ant Translator is an installation for web interaction, a special translator that converts text into images. 
                     The work relies on physical coding techniques to demonstrate how ants process complex information and how to build highly social and collaborative relationships. 
                     Ants are extremely small creatures, but they have a complex social network similar to that of human society. 
                     I was trying to use the language of ants to translate our words and regulate the human world with the rules of their microcosm and establish a new way of communication.</p>
@@ -41,16 +43,16 @@
             <section>
                 <h3>Concept and Background Research</h3>
                 
-                <p>As a delicate artist, I am good at observing people and things around me. 
-                    "Viewing precedes words, and I prefer to use ambiguous expressions rather than words and speeches. 
+                <p align="justify">As a delicate artist, I am good at observing people and things around me. 
+                    Viewing precedes words, and I prefer to use ambiguous expressions rather than words and speeches. 
                     I believe that the visual experience brought by images is an open-ended expression that can provoke the viewer to think and imagine, which words cannot. 
                     The logic nested in words binds these sensory cognitive abilities that are innate to humans.
-                     Visual communication is about creating cognitive and emotional "resonance" between the transmitter and the receiver. 
+                    Visual communication is about creating cognitive and emotional "resonance" between the transmitter and the receiver. 
                     Based on my research into vision, I discovered that ants barely have eyesight but can build complex social networks. I was thus puzzled and intrigued.
                 </p>
 
 
-                <p> I investigated the collaboration patterns of ants and found that ants transmit information and coordinate their actions by releasing chemical pheromones. 
+                <p align="justify"> I investigated the collaboration patterns of ants and found that ants transmit information and coordinate their actions by releasing chemical pheromones. 
                     The ants secrete pheromones along the way as they move, and other ants perceive the 'food' pheromones as they pass by and join the food-carrying party. 
                     That is why, if you put candy on the ground, a swarm of ants will appear within ten minutes. 
                     Pictorial information carriers have a narrative and ideographic function and have thus developed into a social symbol2.
@@ -59,13 +61,13 @@
                 </p>
                 
                 <!-- if you have a full width image try make it not too tall -->
-                <img src="./assets/images/sketch.jpg" class="ants_trail_sketch" />
+                <img src="./assets/images/sketch.jpg" id="ants_trail_sketch" />
                 
             </section>
             <section>
                 <h3>Technical Implementation</h3>
               
-                <p>
+                <p align="justify">
                     First, the workflow of the Ant translator is crucial. 
                     I referred to several translators. I designed a translation webpage where the viewer can enter text and have an interactive experience.
                      At the same time, the viewer has the option to save and upload the images to social platforms for sharing. 
@@ -73,13 +75,13 @@
                      Just like ants, the pheromones are left behind to convey information about the surroundings.
                 </p>
 
-                <p>
-                    Also inspired by Yuichiro Katsumoto's "Mojigen and Sujigen"I tried to show the trajectory of the ants' hard work in the form of a line, changing the shape of the trajectory by the rotation of the Step Motor and uploading the image to a translated website using an external camera. 
+                <p align="justify">
+                    Also inspired by Yuichiro Katsumoto's <em>Mojigen and Sujigen</em> I tried to show the trajectory of the ants' hard work in the form of a line, changing the shape of the trajectory by the rotation of the Step Motor and uploading the image to a translated website using an external camera. 
                     In addition, the different levels of the motor create a rhythmic trajectory.
                 </p>
 
 
-                <p> 
+                <p align="justify"> 
                     In the design of the translation mechanism, the key question is how texts are translated into movement. 
                     Through experiments on the ant simulator, I found that the food variable largely impressed the shape of the trajectory. As the food increases, the trajectory changes less. Therefore, I devised two rules: Rule 1, as the user increases, the angle of change of the trajectory becomes smaller. 
                     Rule 2, the length of the text is consistent with the rate of change of the trajectory. 
@@ -92,12 +94,12 @@
             </section>
             <section>
                 <h3>Reflection and Future Development</h3>
-                <p>Throughout the development of this project, I have continuously refined both its formal and conceptual design, ensuring a cohesive logic between design elements and interactions. 
+                <p align="justify">Throughout the development of this project, I have continuously refined both its formal and conceptual design, ensuring a cohesive logic between design elements and interactions. 
                     Building upon my final work in Physical Coding 1, this project represents a continuation of my exploration into self-expression.
                     However, unlike the previous project, I have adopted a more objective perspective and focused on creating a language and expression that is universal, with a user scope oriented toward the masses.
                 </p>
 
-                <p>I am always fascinated by the intricacies of biological subjects. 
+                <p align="justify">I am always fascinated by the intricacies of biological subjects. 
                     Moving forward, I intend to explore the development of mechanical creatures. 
                     However, I have encountered challenges with serial communication between different boards, which will require further investigation.
                     I found that using microcosms to provoke thought about the human world was a particularly interesting approach.
@@ -124,9 +126,11 @@
         </main>
 
         <footer>
-            <!-- normally information like contact details etc  -->
-            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+        
             
          </footer>
     </body>
 </html>
+
+
+
