@@ -44,7 +44,7 @@
                 <h3>Concept and Background Research</h3>
                 
                 <p align="justify">As a delicate artist, I am good at observing people and things around me. 
-                    Viewing precedes words, and I prefer to use ambiguous expressions rather than words and speeches. 
+
                     I believe that the visual experience brought by images is an open-ended expression that can provoke the viewer to think and imagine, which words cannot. 
                     The logic nested in words binds these sensory cognitive abilities that are innate to humans.
                     Visual communication is about creating cognitive and emotional "resonance" between the transmitter and the receiver. 
@@ -55,59 +55,69 @@
                 <p align="justify"> I investigated the collaboration patterns of ants and found that ants transmit information and coordinate their actions by releasing chemical pheromones. 
                     The ants secrete pheromones along the way as they move, and other ants perceive the 'food' pheromones as they pass by and join the food-carrying party. 
                     That is why, if you put candy on the ground, a swarm of ants will appear within ten minutes. 
-                    Pictorial information carriers have a narrative and ideographic function and have thus developed into a social symbol2.
-                     Pheromones are the language of ants, and different pheromones have different meanings, thus creating an information network of ants. 
+                    Pictorial information carriers have a narrative and ideographic function and have thus developed into a social symbol.
+                    Pheromones are the language of ants, and different pheromones have different meanings, thus creating an information network of ants. 
                     Their pheromone paths form images that build a visual ant colony society.
                 </p>
                 
                 <!-- if you have a full width image try make it not too tall -->
-                <img src="./assets/images/sketch.jpg" id="ants_trail_sketch" />
+                <img src="./assets/images/sketch1.jpg"/>
                 
             </section>
             <section>
                 <h3>Technical Implementation</h3>
               
+
+              <p style="font-size: 110%;"> Design Process </em></p>
+
+              <p align="justify"> 
+                Initially, there were many experiments with the design of path images, including paints, and light and shadow.  
+                In addition, i designed a 3D modelling to present the trails. 
+              </p>
+              <img src="./assets/images/process1.png"/>
+              <p align="justify"> </p>
+              <img src="./assets/images/3d.png"/>
+
+
+
+                <p style="font-size: 110%;">  Workflow</em></p>
                 <p align="justify">
-                    First, the workflow of the Ant translator is crucial. 
-                    I referred to several translators. I designed a translation webpage where the viewer can enter text and have an interactive experience.
-                     At the same time, the viewer has the option to save and upload the images to social platforms for sharing. 
-                     This is an implicit way of expression in the language of pheromones. 
-                     Just like ants, the pheromones are left behind to convey information about the surroundings.
+                  
+                    In this translation webpage, each viewer can enter text and have an interactive experience.
+                    At the same time, the viewer has the option to save and upload the images to social platforms for sharing. 
+                    This is an implicit way of expression in the language of pheromones. 
+                    Just like ants, the pheromones are left behind to convey information about the surroundings.
                 </p>
-
-                <p align="justify">
-                    Also inspired by Yuichiro Katsumoto's <em>Mojigen and Sujigen</em> I tried to show the trajectory of the ants' hard work in the form of a line, changing the shape of the trajectory by the rotation of the Step Motor and uploading the image to a translated website using an external camera. 
-                    In addition, the different levels of the motor create a rhythmic trajectory.
-                </p>
-
-
                 <p align="justify"> 
                     In the design of the translation mechanism, the key question is how texts are translated into movement. 
                     Through experiments on the ant simulator, I found that the food variable largely impressed the shape of the trajectory. As the food increases, the trajectory changes less. Therefore, I devised two rules: Rule 1, as the user increases, the angle of change of the trajectory becomes smaller. 
                     Rule 2, the length of the text is consistent with the rate of change of the trajectory. 
                     Therefore, I applied y = k/x and y= k* x functions to change the angle and acceleration values of the motor in the translation process.
                 </p>
-      
-                <img src="./assets/images/ants-tech.png"/>
-       
-         
+              <!-- if you have a full width image try make it not too tall -->
+              <img src="./assets/images/design1111.jpg"/>
+
             </section>
+
+            
             <section>
                 <h3>Reflection and Future Development</h3>
-                <p align="justify">Throughout the development of this project, I have continuously refined both its formal and conceptual design, ensuring a cohesive logic between design elements and interactions. 
-                    Building upon my final work in Physical Coding 1, this project represents a continuation of my exploration into self-expression.
-                    However, unlike the previous project, I have adopted a more objective perspective and focused on creating a language and expression that is universal, with a user scope oriented toward the masses.
-                </p>
 
                 <p align="justify">I am always fascinated by the intricacies of biological subjects. 
-                    Moving forward, I intend to explore the development of mechanical creatures. 
-                    However, I have encountered challenges with serial communication between different boards, which will require further investigation.
-                    I found that using microcosms to provoke thought about the human world was a particularly interesting approach.
+                    Moving forward, I intend to explore the development of mechanical creatures.
                     Nature is both mysterious and beautiful, and I have been experimenting with combining computer programming with the natural world. 
+                    I found that using microcosms to provoke thought about the human world was a particularly interesting approach.
                     The interplay between the natural laws of living things and the human environment is a rich area for exploration and discovery.</p>
+
+                    <p style="font-size: 110%;">  Iteration </em></p>
+                    <p align="justify">
+                        For the next generation I am planning to make it a 3D sculpture and make some 'robot' ants move around the path.
+                        In addition, I will be updating the interface of the website, including adding categories for languages and visual aesthetic optimisation. </p>
+
+                    <img src="./assets/images/further.png"/>
             </section>
 
-            <section>
+            <!-- <section>
                 <h3>References</h3>
                 <ul>
                     <li>kylemcdonald.github.io. “Cv-Examples.” Accessed March 29, 2023. https://kylemcdonald.github.io/cv-examples/.</li>
@@ -122,7 +132,7 @@
                     <li>www.youtube.com. “Ant Groups Optimally Amplify the Effect of Transiently Informed Individuals.” Accessed March 29, 2023. https://www.youtube.com/watch?v=jx4bP0DYfK0.</li>
 
                 </ul>
-            </section>
+            </section> -->
         </main>
 
         <footer>
